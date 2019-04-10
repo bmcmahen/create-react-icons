@@ -23,3 +23,7 @@ The cli can also be installed using yarn or npm allowing you to use the script w
 ```
 yarn add create-react-icons
 ```
+
+## License
+
+MIT

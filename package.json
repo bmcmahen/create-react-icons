@@ -5,6 +5,7 @@
   "main": "index.js",
   "bin": "index.js",
   "author": "Ben McMahen<ben.mcmahen@gmail.com>",
+  "repository": "github:bmcmahen/create-react-icons",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -23,6 +24,7 @@
     "uppercamelcase": "^3.0.0"
   },
   "devDependencies": {
-    "feather-icons": "^4.21.0"
+    "feather-icons": "^4.21.0",
+    "material-design-icons": "^3.0.1"
   }
 }
