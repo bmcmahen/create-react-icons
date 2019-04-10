@@ -1,0 +1,18 @@
+{
+  "name": "create-react-icons",
+  "version": "1.0.0",
+  "description": "Generate svg icons as react components",
+  "main": "index.js",
+  "author": "Ben McMahen<ben.mcmahen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
+    "ejs": "^2.6.1",
+    "glob": "^7.1.3",
+    "prettier": "^1.16.4",
+    "uppercamelcase": "^3.0.0"
+  }
+}
