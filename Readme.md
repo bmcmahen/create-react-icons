@@ -2,11 +2,16 @@
 
 Create react icons is a CLI for easily generating react icon components from a set of svg formatted icons. It was originally built to generate the feather icons found in [Sancho-UI](http://sancho-ui.com).
 
-### Features
+```
+yarn create react-icons --source './icons/**.svg' --destination path/to/destination
+```
+
+## Features
 
 - Generate javascript or typescript components
 - Provide a custom template, or use a built-in one
 - Generated icons support tree shaking. Bundle only those icons that you use!
+- Creates an index file which exports all of your generated icons.
 
 It converts something like this:
 
@@ -26,7 +31,7 @@ It converts something like this:
 </svg>
 ```
 
-to this:
+into this:
 
 ```jsx
 import React from "react";
@@ -66,28 +71,18 @@ IconBaseball.propTypes = {
 };
 ```
 
-### Basic usage
+## API
 
 ```
-yarn create react-icons -s 'node_modules/feather-icons/dist/icons/**.svg' -d destination
-```
+Usage: create-react-icons [options]
 
-For typescript, use the `typescript` option.
-
-```
-yarn create react-icons -s 'node_modules/feather-icons/dist/icons/**.svg' -d destination --typescript
-```
-
-You can provide your ejs style template. It's best to start by copying one of the provided templates in the `lib` folder.
-
-```
-yarn create react-icons -s 'node_modules/feather-icons/dist/icons/**.svg' -d destination -t template.js
-```
-
-The cli can also be installed using yarn or npm allowing you to use the script within a local project.
-
-```
-yarn add create-react-icons
+Options:
+  -V, --version             output the version number
+  -s, --source <path>       Path to the svg icons source ('./path/**.svg')
+  -d, --destination <path>  Destination path for the react components (./path/destination)
+  -t, --template <path>     Path to ejs react component template (./path/template.ejs)
+  --typescript              Generate typescript icons
+  -h, --help                output usage information
 ```
 
 ## License
