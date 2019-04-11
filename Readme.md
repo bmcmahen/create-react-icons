@@ -2,8 +2,14 @@
 
 Create react icons is a CLI for easily generating react icon components from a set of svg formatted icons. It was originally built to generate the feather icons found in [Sancho-UI](http://sancho-ui.com).
 
+Install using yarn or npm
+
 ```
-yarn create react-icons --source './icons/**.svg' --destination path/to/destination
+yarn global add create-react-icons
+```
+
+```
+create-react-icons --source './icons/**.svg' --destination path/to/destination
 ```
 
 ## Features
