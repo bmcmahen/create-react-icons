@@ -31,7 +31,7 @@ It converts something like this:
 </svg>
 ```
 
-to this:
+into this:
 
 ```jsx
 import React from "react";
@@ -79,8 +79,8 @@ Usage: create-react-icons [options]
 Options:
   -V, --version             output the version number
   -s, --source <path>       Path to the svg icons source ('./path/**.svg')
-  -d, --destination [path]  Destination path for the react components (./path/destination)
-  -t, --template [path]     Path to ejs react component template (./path/template.ejs)
+  -d, --destination <path>  Destination path for the react components (./path/destination)
+  -t, --template <path>     Path to ejs react component template (./path/template.ejs)
   --typescript              Generate typescript icons
   -h, --help                output usage information
 ```
