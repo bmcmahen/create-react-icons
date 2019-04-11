@@ -15,7 +15,7 @@ create-react-icons --source './icons/**.svg' --destination path/to/destination
 ## Features
 
 - Generate javascript or typescript components.
-- Provide a custom ejs template, or use the [included template](https://github.com/bmcmahen/create-react-icons/blob/master/lib/default-js-template.ejs).
+- Provide a custom ejs template, or use the [included template](https://github.com/bmcmahen/create-react-icons/blob/master/lib/default-js-template.ejs). This flexibility means you could create a component that uses styled-components, themes, or even a non-react component.
 - Generated icons support tree shaking. Bundle only those icons that you use!
 - Creates an index file which exports all of your generated icons.
 
