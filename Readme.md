@@ -1,4 +1,14 @@
+<div align="center">
+    
 # Create react icons
+  
+[![npm package](https://img.shields.io/npm/v/create-react-icons/latest.svg)](https://www.npmjs.com/package/create-react-icons)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=create-react-icons%20is%20a%20CLI%20for%20generating%20your%20own%20react%20icon%20components%20from%20svg%20files.&url=https://github.com/bmcmahen/create-react-icons&hashtags=react,javascript)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/benmcmahen.svg?style=social&logo=twitter)](
+https://twitter.com/intent/follow?screen_name=benmcmahen
+)
+
+</div>
 
 Create react icons is a CLI for easily generating react icon components from a set of svg formatted icons. It was originally built to generate the feather icons found in [Sancho-UI](http://sancho-ui.com).
 
