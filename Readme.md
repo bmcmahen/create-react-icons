@@ -1,15 +1,31 @@
+<div align="center">
+    
 # Create react icons
+  
+[![npm package](https://img.shields.io/npm/v/create-react-icons/latest.svg)](https://www.npmjs.com/package/create-react-icons)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=create-react-icons%20is%20a%20CLI%20for%20generating%20your%20own%20react%20icon%20components%20from%20svg%20files.&url=https://github.com/bmcmahen/create-react-icons&hashtags=react,javascript)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/benmcmahen.svg?style=social&logo=twitter)](
+https://twitter.com/intent/follow?screen_name=benmcmahen
+)
+
+</div>
 
 Create react icons is a CLI for easily generating react icon components from a set of svg formatted icons. It was originally built to generate the feather icons found in [Sancho-UI](http://sancho-ui.com).
 
+Install using yarn or npm
+
 ```
-yarn create react-icons --source './icons/**.svg' --destination path/to/destination
+yarn global add create-react-icons
+```
+
+```
+create-react-icons --source './icons/**.svg' --destination path/to/destination
 ```
 
 ## Features
 
-- Generate javascript or typescript components
-- Provide a custom template, or use a built-in one
+- Generate javascript or typescript components.
+- Provide a custom ejs template, or use the [included template](https://github.com/bmcmahen/create-react-icons/blob/master/lib/default-js-template.ejs). This flexibility means you could create a component that uses styled-components, themes, or even a non-react component.
 - Generated icons support tree shaking. Bundle only those icons that you use!
 - Creates an index file which exports all of your generated icons.
 
