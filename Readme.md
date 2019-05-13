@@ -19,7 +19,7 @@ yarn global add create-react-icons
 ```
 
 ```
-create-react-icons --source './icons/**.svg' --destination path/to/destination
+create-react-icons -s './icons/**.svg' -d path/to/destination
 ```
 
 ## Features
