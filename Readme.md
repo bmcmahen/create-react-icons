@@ -1,3 +1,7 @@
+Deprecated:
+
+While I'm likely to continue using this project for a while, I recommend you use [svgr](https://www.smooth-code.com/open-source/svgr/docs/cli/) instead. 
+
 <div align="center">
     
 # Create react icons
